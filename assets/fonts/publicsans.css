@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'PublicSans';
+    font-style: normal;
+    src: local('PublicSans'), local('PublicSans-Regular'), url(./PublicSans/PublicSans-Regular.ttf) format('truetype');
+}

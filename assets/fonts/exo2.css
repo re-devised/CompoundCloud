@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Exo2';
+    font-style: normal;
+    src: local('Exo2'), local('Exo2-Regular'), url(./Exo2/Exo2-Regular.ttf) format('truetype');
+}

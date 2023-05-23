@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Rubrik';
+    font-style: normal;
+    src: local('Rubrik'), local('Rubrik-Regular'), url(./Rubrik/Rubik-Regular.ttf) format('truetype');
+}

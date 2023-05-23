@@ -1,0 +1,27 @@
+version: '3'
+services:
+    compoundcloud:
+        restart: always
+        image: redevised/compoundcloud
+        depends_on:
+            - mongo
+        volumes: 
+            - C:/Users/schae/Downloads/uploads:/usr/src/app/uploads
+            - cc-config:/usr/src/app/config
+        environment: 
+#           - BASE_URL=https://yourowncloud.com
+            - PORT=8000
+            # - MONGO_USERNAME=root
+            # - MONGO_PASSWORD=compoundcloud
+#           - MONGO_URL=mongo:27017
+        ports:
+            - 8000:8000
+
+    mongo:
+        restart: always
+        image: mongo:5.0
+        ports:
+            - 27017:27017
+
+volumes:
+    cc-config:

@@ -1,0 +1,9 @@
+nuxt.config.js
+package.json
+productionfiles
+remove-devfiles.sh
+node_modules
+config
+static
+server
+.nuxt
